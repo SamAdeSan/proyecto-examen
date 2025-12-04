@@ -21,7 +21,7 @@ final class PageController extends AbstractController
     #[Route('/shop-single', name: 'shop-single')]
     public function blog(): Response
     {
-        return $this->render('page/archieves.html.twig', []);
+        return $this->render('page/shop-single.html.twig', []);
     }
     #[Route('/shop', name: 'shop')]
     public function shop(): Response
